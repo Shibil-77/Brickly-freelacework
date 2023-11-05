@@ -6,7 +6,7 @@ import FooterSubThree from "../../components/footer/FooterSubThree";
 
 function FooterPage() {
   return (
-    <footer className="bg-primary from-gray-100 via-[#bce1ff] to-gray-100 w-screen ">
+    <footer className="bg-primary from-gray-100 via-[#bce1ff] to-gray-100  ">
          <div className="lg:hidden block pt-11">
             <FooterSubOne />
           </div>
