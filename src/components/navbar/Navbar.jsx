@@ -13,9 +13,9 @@ function Navbar() {
   };
 
   return (
-    <nav className="fixed right-0 bg-primary p-2 w-full z-20 top-0 left-0 bg-opacity-50 ">
+    <nav className="sticky top-0 bg-opacity-95 backdrop-blur-md z-50 p-4  ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <a href="https://flowbite.com/" className="flex items-center">
+        <a href="/" className="flex items-center">
           <img src={Logo} className="h-10 mr-3" alt="Flowbite Logo" />
         </a>
         <div className="flex md:order-2 mt-3">
@@ -29,9 +29,10 @@ function Navbar() {
             <img src="" alt="" className="mb-2" />
             <img src="" alt="" className="ml-6" />
           </div>
-       
+          <div className="lg:block hidden">
             <Button text="Dowload" link="/" />
-     
+          </div>
+
           <button
             type="button"
             onClick={toggleMobileMenu} // Call the toggle function on button click
@@ -63,11 +64,11 @@ function Navbar() {
           }`}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium  bg-primary bg-opacity-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium bg-opacity-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-text-color  rounded md:bg-transparent md:text-color md:p-0 "
+                className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0"
                 aria-current="page"
               >
                 HOME
@@ -76,15 +77,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 "
-              >
-                SHOP
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
-                className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 "
+                className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0 "
               >
                 ABOUT
               </a>
@@ -92,7 +85,15 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 "
+                className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0 "
+              >
+                SHOP
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0 "
               >
                 CONTACT
               </a>
