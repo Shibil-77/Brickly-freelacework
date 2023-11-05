@@ -1,10 +1,10 @@
 import './App.css';
-import Download from './components/Download/Download';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App container">
        <h1 >HELLO</h1>
+    
     </div>
   );
 }
