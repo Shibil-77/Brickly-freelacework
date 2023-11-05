@@ -5,7 +5,7 @@ import WhiteLogo from  "../../assets/logo.jpeg"
 function FooterSubOne() {
   return(
     <>   
-<div className=' mt-8'>
+<div className=''>
 <img src={WhiteLogo} className="mr-3 ml-2 h-6 sm:h-9 " alt="logo" />
   <p className="max-w-xs mt-4 text-sm text-text-color ml-6 ">
   Social Media

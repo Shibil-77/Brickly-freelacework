@@ -1,5 +1,9 @@
-/* 
-.main-div{
-    background-color: #511515;
-    background-image: url("../public/Background%20.png ");
-} */
+.bg{
+    background-color: rgb(215, 215, 215);
+    background-image: url(./assets/Background.png);
+    width: 100%;
+    height: 1000px;
+}
+.text-11{
+    color: blue;
+}
