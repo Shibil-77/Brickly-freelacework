@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Members() {
+const Members = () => {
   return (
     <div>Members</div>
   )
