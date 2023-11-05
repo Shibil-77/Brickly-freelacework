@@ -1,11 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-// import Logo from '../../assetes/svg/logo.svg'; // Correct the path to your logo file
-// import { Link } from 'react-router-dom';
-// import Cart from '../../assetes/svg/cart.svg'
-// import Wishlist from '../../assetes/svg/wishlist.svg'
-
+import React, { useState } from "react";
+// eslint-disable-next-line no-unused-vars
+import { Link } from "react-router-dom";
+import Logo from "../../assets/logo.jpeg";
+import Button from "../common/Button";
 
 function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -15,14 +13,10 @@ function Navbar() {
   };
 
   return (
-    <nav className="fixed right-0 bg-white p-4 w-full z-20 top-0 left-0 border-b border-gray-200 ">
+    <nav className="fixed right-0 bg-primary p-2 w-full z-20 top-0 left-0 bg-opacity-50 ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="https://flowbite.com/" className="flex items-center">
-          <img
-            src=''
-            className="h-8 mr-3"
-            alt="Flowbite Logo"
-          />
+          <img src={Logo} className="h-10 mr-3" alt="Flowbite Logo" />
         </a>
         <div className="flex md:order-2 mt-3">
           {/* <button
@@ -31,24 +25,19 @@ function Navbar() {
           >
             Get started
           </button> */}
-            <div className='flex '>
-            <img src="" alt="" className='mb-2' />
-              <img src="" alt="" className='ml-6'/>
-            </div>
-            <Link to="/" className="lg:block hidden">
-              <button
-                type="button"
-                className="inline-block rounded bg-primary-100 ml-5 px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-primary-700 transition duration-150 ease-in-out hover:bg-primary-accent-100 focus:bg-primary-accent-100 focus:outline-none focus:ring-0 active:bg-primary-accent-200 border border-2 text-lg text-primary"
-              >
-                LOGIN
-              </button>
-            </Link>
+          <div className="flex ">
+            <img src="" alt="" className="mb-2" />
+            <img src="" alt="" className="ml-6" />
+          </div>
+       
+            <Button text="Dowload" link="/" />
+     
           <button
             type="button"
             onClick={toggleMobileMenu} // Call the toggle function on button click
             className="ml-3 inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
             aria-controls="navbar-sticky"
-            aria-expanded={isMobileMenuOpen ? 'true' : 'false'} // Set aria-expanded based on the state
+            aria-expanded={isMobileMenuOpen ? "true" : "false"} // Set aria-expanded based on the state
           >
             <span className="sr-only">Open main menu</span>
             <svg
@@ -70,15 +59,15 @@ function Navbar() {
         </div>
         <div
           className={`items-center justify-between w-full md:flex md:w-auto md:order-1 ${
-            isMobileMenuOpen ? 'block' : 'hidden'
+            isMobileMenuOpen ? "block" : "hidden"
           }`}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
+          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium  bg-primary bg-opacity-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-primary  rounded md:bg-transparent md:text-secondary md:p-0 "
+                className="block py-2 pl-3 pr-4 text-text-color  rounded md:bg-transparent md:text-color md:p-0 "
                 aria-current="page"
               >
                 HOME
@@ -87,7 +76,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 "
+                className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 "
               >
                 SHOP
               </a>
@@ -95,7 +84,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 "
+                className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 "
               >
                 ABOUT
               </a>
@@ -103,7 +92,7 @@ function Navbar() {
             <li>
               <a
                 href="#"
-                className="block py-2 pl-3 pr-4 text-primary rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 "
+                className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-secondary md:p-0 "
               >
                 CONTACT
               </a>
