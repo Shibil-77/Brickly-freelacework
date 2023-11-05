@@ -1,16 +1,9 @@
 import React from 'react'
-import Layout from '../layout/Layout';
-import Download from '../../components/Download/Download';
-
 
 const Home = () => {
   return (
-    <div>
-      <Layout>
-       <Download/>
-      </Layout>
-    </div>
-  );
-};
+    <div>Home</div>
+  )
+}
 
 export default Home;

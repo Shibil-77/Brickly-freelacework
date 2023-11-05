@@ -1,0 +1,10 @@
+
+
+  /* Media query for screens with a minimum width of 949 pixels */
+@media (max-width: 1030px) {
+    /* Override the width to w-full */
+    .md\:w-1\/2 {
+      width: 100%;
+    }
+  }
+  
