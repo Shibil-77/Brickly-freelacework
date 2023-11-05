@@ -1,5 +1,4 @@
 import './App.css';
-import Download from './components/Download/Download';
 
 function App() {
   return (
