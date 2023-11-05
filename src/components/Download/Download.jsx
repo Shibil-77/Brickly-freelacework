@@ -16,7 +16,6 @@ const Download = () => {
           <div className="flex gap-2">
           <button className="bg-[#00b7aa] p-2 py-3 px-4 rounded-md text-[#f6f5f8] flex"><img className="w-8 h-7 text" src={playStoreIcon} alt="" /><strong >Play Store</strong></button>
           <button className="bg-[#333e48]  p-2 py-3 px-4 rounded-md text-[#f6f5f8] flex"><img className="w-7 h-6  text" src={AppStoreIcon} alt="" /><strong className="pl-1">App Store</strong></button>
-
           </div>
         </div>
       </div>
