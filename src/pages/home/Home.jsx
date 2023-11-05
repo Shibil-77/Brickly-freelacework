@@ -1,15 +1,13 @@
-import React from "react";
-import Layout from "../layout/Layout";
+import React from 'react'
+import Layout from '../layout/Layout';
+import Download from '../../components/Download/Download';
 
-import '../../App.css'
 
 const Home = () => {
   return (
     <div>
       <Layout>
-        <div id="main-div" className="h-[1000px] bg-slate-900">
-
-        </div>
+       <Download/>
       </Layout>
     </div>
   );
