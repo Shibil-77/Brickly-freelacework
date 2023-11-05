@@ -9,6 +9,10 @@ module.exports = {
         'secondary': '#00b7aa',
         'text-color':'#333e48'
       },
+      container: {
+        center: true,
+        padding: '1rem', // You can adjust the padding as needed
+      },
     },
   },
   plugins: [],
