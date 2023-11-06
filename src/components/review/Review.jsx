@@ -1,76 +1,158 @@
-import React, { useState } from "react";
+/* eslint-disable no-use-before-define */
+/* eslint-disable no-const-assign */
+/* eslint-disable jsx-a11y/img-redundant-alt */
+import React, { useEffect, useState } from "react";
 import "./review.css";
+import imgOne from '../../assets/img-1.jpeg'
+import imgTwo from '../../assets/img-2.jpeg'
+import img3 from '../../assets/img-3.jpeg'
+import img4 from '../../assets/img-4.jpeg'
+import img5 from '../../assets/img-5.jpeg'
+import img6 from '../../assets/img-6.jpeg'
+
 
 const Review = () => {
-
-  const testimonials = [
+  const [count, setCount] = useState(0);
+  const [countTwo, setCountTwo] = useState(1);
+  const [countThree, setCountThree] = useState(2);
+  const [arr, setArr] = useState([
     {
-      userImg: "https://randomuser.me/api/portraits/men/83.jpg",
+      userImg: imgOne,
       name: "Rodel Golez 1",
       position: "Businesswoman",
     },
     {
-      userImg: "https://randomuser.me/api/portraits/men/83.jpg",
+      userImg: imgTwo,
       name: "Rodel Golez 2",
       position: "Businesswoman",
     },
     {
-      userImg: "https://randomuser.me/api/portraits/men/83.jpg",
+      userImg: img3,
       name: "Rodel Golez 3",
       position: "Businesswoman",
     },
     {
-      userImg: "https://randomuser.me/api/portraits/men/83.jpg",
+      userImg: img4,
       name: "Rodel Golez 4",
       position: "Businesswoman",
     },
     {
-      userImg: "https://randomuser.me/api/portraits/men/83.jpg",
+      userImg: img5,
       name: "Rodel Golez 5",
       position: "Businesswoman",
     },
     {
-      userImg: "https://randomuser.me/api/portraits/men/83.jpg",
+      userImg: img6,
       name: "Rodel Golez 6",
       position: "Businesswoman",
     },
-  ];
+  ]);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setCount((prevCount) => {
+        if (prevCount < arr.length-1) {
+        
+          return prevCount + 1;
+        } else {
+          return 0;
+        }
+      });
+      setCountTwo((prevCount) => {
+        if (prevCount < arr.length-1) {
+        
+          return prevCount + 1;
+        } else {
+          return 0;
+        }
+      });
+      setCountThree((prevCount) => {
+        if (prevCount < arr.length-1) {
+        
+          return prevCount + 1;
+        } else {
+          return 0;
+        }
+      });
+    }, 4000);
+    return () => {
+      clearInterval(intervalId);
+    };
+  }, []);
+
+
   return (
-    <div className="testimonials">
+    <div className="testimonials container bg rounded-3xl my-5">
       <div className="carousel-testimonials ">
         <section className="">
           <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-            <div className="text-[#00b7aa] text-3xl  flex items-center justify-center">
+            <div className="text-text-color text-3xl  flex items-center justify-center">
               <strong>What do users think about Brickly </strong>
             </div>
             <div className="slider example flex items-center justify-center">
+              <div className="slide-track example mt-8 lg:ml-10 lg:flex  gap-20 ">
 
-              <div className="slide-track example mt-8 lg:ml-10 flex gap-20 overflow-x-auto  	">
-                {testimonials.map(
-                  (testimonial, index) =>
-                      <div  key={index}>
-                        <div className="flex  flex-col items-center w-[20rem] py-10">
-                          <img
-                            className="w-24 h-24 mb-3 rounded-full shadow-lg"
-                            src={testimonial.userImg}
-                            alt="Bonnie image"
-                          />
+                <div className="slide transform ease-in-out transition-all duration-300">
+                  <div className="flex  flex-col items-center w-[20rem] py-10">
+                    <img
+                      className="w-24 h-24 mb-3 rounded-full shadow-lg bg-cover"
+                      src={arr[count].userImg}
+                      alt="Bonnie image"
+                    />
 
-                          <p className="newp w-full hover:text-secondary">   
-                            I've been searching for a tool like Pavo for so
-                            long. I love the reports it generates and the
-                            amazing high accuracy
-                          </p>
-                          <p className="newp w-full testimonial-author hover:text-secondary">
-                            <strong>{testimonial.name}</strong>
-                          </p>
-                        </div>
-                        <h1>{index}</h1>
-                      </div>
-                    
-                )}
+                    <p className="newp w-full hover:text-primary text-center text-primary">
+                      I've been searching for a tool like Pavo for so long. I
+                      love the reports it generates and the amazing high
+                      accuracy
+                    </p>
+                    <p className="newp w-full testimonial-author hover:text-secondary text-center">
+                      <strong>{arr[count].name}</strong>
+                    </p>
+                  </div>
+                </div>
+
+
+                <div className="slide transform ease-in-out transition-all duration-300">
+                  <div className="flex  flex-col items-center w-[20rem] py-10">
+                    <img
+                      className="w-24 h-24 mb-3 rounded-full shadow-lg"
+                      src={arr[countTwo].userImg}
+                      alt="Bonnie image"
+                    />
+
+                    <p className="newp w-full hover:text-secondary text-center">
+                      I've been searching for a tool like Pavo for so long. I
+                      love the reports it generates and the amazing high
+                      accuracy
+                    </p>
+                    <p className="newp w-full testimonial-author hover:text-secondary text-center">
+                      <strong>{arr[countTwo].name}</strong>
+                    </p>
+                  </div>
+                </div>
+
+
+
+                <div className="slide transform ease-in-out transition-all duration-300">
+                  <div className="flex  flex-col items-center w-[20rem] py-10">
+                    <img
+                      className="w-24 h-24 mb-3 rounded-full shadow-lg"
+                      src={arr[countThree].userImg}
+                      alt="Bonnie image"
+                    />
+
+                    <p className="newp w-full hover:text-secondary text-center">
+                      I've been searching for a tool like Pavo for so long. I
+                      love the reports it generates and the amazing high
+                      accuracy
+                    </p>
+                    <p className="newp w-full testimonial-author hover:text-secondary text-center">
+                      <strong>{arr[countThree].name}</strong>
+                    </p>
+                  </div>
+                </div>
+
               </div>
-
             </div>
           </div>
         </section>

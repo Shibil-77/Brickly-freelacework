@@ -3,14 +3,14 @@ import Layout from "../layout/Layout";
 import Download from '../../components/Download/Download'
 import '../../App.css'
 import Works from "../../components/works/Works";
-import Banner from "../../components/banner/Banner";
+import Review from "../../components/review/Review";
 
 const Home = () => {
   return (
     <Layout>
-     <Banner/>
       <Download/>
       <Works/>
+      <Review/>
       {/* <div className="bg " >Home</div> */}
 
     </Layout>
