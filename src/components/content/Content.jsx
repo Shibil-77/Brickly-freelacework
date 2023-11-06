@@ -1,6 +1,5 @@
 import React from "react";
 import contentImage1 from "../../assets/Content-image-1.jpg";
-import contentImage2 from "../../assets/Content-image-2.jpg";
 
 import "./content.css";
 
@@ -8,9 +7,9 @@ const Content = () => {
   return (
     <div className="mt-5 flex items-center justify-center">
       <div>
-        <div className="flex ">
+        <div className="flex">
           <div>
-            <img className="md:w-full w-24 h-20 md:h-96" src={contentImage1} alt="" />
+            <img className="md:w-full w-24 h-20 md:h-96 rounded-lg" src={contentImage1} alt="" />
           </div>
           <div className=" w-full my-auto flex pb-0  p-5 justify-center">
             <div className=" grid gap-4 ">
@@ -48,13 +47,13 @@ const Content = () => {
             </div>
           </div>
           <div>
-            <img className="md:w-full w-24 h-20 md:h-96" src={contentImage2} alt="" />
+            <img className="md:w-full w-24 h-20 md:h-96  rounded-lg" src={contentImage1} alt="" />
           </div>
         </div>
 
         <div className="flex mt-10">
           <div>
-            <img className="md:w-full w-24 h-20 md:h-96" src={contentImage1} alt="" />
+            <img className="md:w-full w-24 h-20 md:h-96  rounded-lg" src={contentImage1} alt="" />
           </div>
           <div className=" w-full my-auto flex pb-0  p-5 justify-center">
             <div className=" grid gap-4 ">

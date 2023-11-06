@@ -6,12 +6,11 @@ import Content from '../../components/content/Content';
 
 const Home = () => {
   return (
-    <>
     <Layout>
       <Download/>
+      <Content/>
     </Layout>
-    </>
   )
 }
 
-export default Home;
+export default Home

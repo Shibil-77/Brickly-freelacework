@@ -13,10 +13,10 @@ function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 bg-opacity-95 backdrop-blur-md z-50 p-4  ">
+    <nav className="sticky top-0 bg-opacity-95 backdrop-blur-md z-50 p-0  ">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <a href="/" className="flex items-center">
-          <img src={Logo} className="h-10 mr-3" alt="Flowbite Logo" />
+          <img src={Logo} className="h-10 mr-3" alt="Logo" />
         </a>
         <div className="flex md:order-2 mt-3">
           {/* <button
