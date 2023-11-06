@@ -17,8 +17,8 @@ const Home = () => {
         <Badge/>
         <Content/>
         <Download/>
-        <Works/>
         <Services/>
+        <Works/>
       </div>
     
     </Layout>
