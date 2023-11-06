@@ -10,7 +10,7 @@ const Content = () => {
   return (
     <div className="mt-5 font-roboto flex items-center justify-center">
       <div>
-        <div className="md:flex gap-10 bg-primary rounded-t-lg px-12 py-5">
+        <div className="md:flex gap-10 bg-white  rounded-t-lg px-5 py-5">
           <div>
             <img
               className="w-full h-96 rounded-lg object-cover"
@@ -36,7 +36,7 @@ const Content = () => {
           </div>
         </div>
 
-        <div className="md:flex  mt-10">
+        <div className="md:flex bg-primary   mt-10 px-5 py-5">
           <div className="md:hidden ">
             <img
               className=" w-full h-96 rounded-lg object-cover"
@@ -69,7 +69,7 @@ const Content = () => {
           </div>
         </div>
 
-        <div className="md:flex mt-10">
+        <div className="md:flex gap-10 bg-white rounded-t-lg px-5 py-5 mt-10 ">
           <div >
             <img
               className="w-full h-96 rounded-lg object-cover"
