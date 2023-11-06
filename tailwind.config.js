@@ -11,7 +11,10 @@ module.exports = {
       },
       container: {
         center: true,
-        padding: '1rem', // You can adjust the padding as needed
+        padding: '5rem', // You can adjust the padding as needed
+      },
+      backgroundImage: {
+        'custom-image': "url('/public/logo192.png')",
       },
     },
   },
