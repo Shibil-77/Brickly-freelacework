@@ -1,60 +1,83 @@
 import React from "react";
-import contentImage1 from "../../assets/Content-image-1.jpg";
-import contentImage2 from "../../assets/Content-image-2.jpg";
+import contentImage1 from "../../assets/Content-image-1.jpeg";
+import contentImage2 from "../../assets/Content-image-2.jpeg";
+import contentImage3 from "../../assets/Content-image-3.jpeg";
+
+
+
 
 import "./content.css";
 
 const Content = () => {
   return (
-    <div className="mt-5 flex items-center justify-center">
+    <div className="mt-5 font-roboto flex items-center justify-center">
       <div>
-        <div className="flex ">
+        <div className="md:flex gap-10 bg-primary rounded-t-lg px-12 py-5">
           <div>
-            <img className="md:w-full w-24 h-20 md:h-96" src={contentImage1} alt="" />
+            <img
+              className="w-full h-96 rounded-lg object-cover"
+              src={contentImage1}
+              alt=""
+            />
           </div>
-          <div className=" w-full my-auto flex pb-0  p-5 justify-center">
+          <div className=" w-full my-auto flex pb-0   p-5 justify-center">
             <div className=" grid gap-4 ">
               <h1 className="ptext md:text-4xl text-3xl  max">
                 <strong>24/7 Customer Support </strong>
               </h1>
-              <p className="text-[#333e48] leading-7 ">
-                <strong>
+              <p className="text-text-color b leading-7 lg:text-[18px] text-[15px] font-semibold">
                   Our team of experts is available around the clock to assist
                   you with any questions or <br className="md:block hidden" />
                   issues you may have. Whether you need technical support or
                   advice on <br className="md:block hidden" />
                   how to get the most out of our software, we're here to help.
-                </strong>
+                  Lorem ipsum dolor  <br className="md:block hidden" /> sit amet consectetur adipisicing elit. Incidunt voluptates accusantium iste, <br className="md:block hidden" /> quidem dolor quisquam, mollitia expedita
+                  officiis recusandae explicabo itaque  <br className="md:block hidden" /> repudiandae nam vel suscipit ipsa reprehenderit neque placeat! Voluptatem?               
               </p>
             </div>
           </div>
         </div>
 
-        <div className="flex mt-10">
+        <div className="md:flex  mt-10">
+          <div className="md:hidden ">
+            <img
+              className=" w-full h-96 rounded-lg object-cover"
+              src={contentImage2}
+              alt=""
+            />
+          </div>
           <div className=" w-full my-auto flex pb-0  p-5 justify-center">
             <div className=" grid gap-4 ">
               <h1 className="ptext md:text-4xl text-3xl  max">
                 <strong>Integration with Other Tools </strong>
               </h1>
-              <p className="text-[#333e48] leading-7 ">
-                <strong>
+              <p className="text-text-color leading-7 lg:text-[18px] text-[15px] font-semibold">
                   Our team of experts is available around the clock to assist
                   you with any questions or <br className="md:block hidden" />
                   issues you may have. Whether you need technical support or
                   advice on <br className="md:block hidden" />
                   how to get the most out of our software, we're here to help.
-                </strong>
+                  Lorem ipsum dolor  <br className="md:block hidden" /> sit amet consectetur adipisicing elit. Incidunt voluptates accusantium iste, <br className="md:block hidden" /> quidem dolor quisquam, mollitia expedita
+                  officiis recusandae explicabo itaque  <br className="md:block hidden" /> repudiandae nam vel suscipit ipsa reprehenderit neque placeat! Voluptatem?                
               </p>
             </div>
           </div>
-          <div>
-            <img className="md:w-full w-24 h-20 md:h-96" src={contentImage2} alt="" />
+          <div className="hidden md:block ">
+            <img
+              className=" w-full h-96 rounded-lg object-cover"
+              src={contentImage2}
+              alt=""
+            />
           </div>
         </div>
 
-        <div className="flex mt-10">
-          <div>
-            <img className="md:w-full w-24 h-20 md:h-96" src={contentImage1} alt="" />
+        <div className="md:flex mt-10">
+          <div >
+            <img
+              className="w-full h-96 rounded-lg object-cover"
+              src={contentImage3}
+              alt=""
+            />
           </div>
           <div className=" w-full my-auto flex pb-0  p-5 justify-center">
             <div className=" grid gap-4 ">
@@ -65,14 +88,14 @@ const Content = () => {
                   On-Premise Hosting
                 </strong>
               </h1>
-              <p className="text-[#333e48] leading-7 ">
-                <strong>
+              <p className="text-text-color lg:text-[18px] text-[15px] leading-7 font-semibold">
                   Our team of experts is available around the clock to assist
                   you with any questions or <br className="md:block hidden" />
                   issues you may have. Whether you need technical support or
                   advice on <br className="md:block hidden" />
                   how to get the most out of our software, we're here to help.
-                </strong>
+                  Lorem ipsum dolor  <br className="md:block hidden" /> sit amet consectetur adipisicing elit. Incidunt voluptates accusantium iste, <br className="md:block hidden" /> quidem dolor quisquam, mollitia expedita
+                  officiis recusandae explicabo itaque  <br className="md:block hidden" /> repudiandae nam vel suscipit ipsa reprehenderit neque placeat! Voluptatem?            
               </p>
             </div>
           </div>

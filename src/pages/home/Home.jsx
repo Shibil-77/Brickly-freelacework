@@ -7,12 +7,14 @@ import Works from "../../components/works/Works";
 import Services from "../../components/services/Services";
 import Content from "../../components/content/Content";
 import Hero from "../../components/hero/Hero";
+import Badge from "../../components/badge/Badge";
 
 const Home = () => {
   return (
     <Layout>
       <Hero/>
       <div className="container">
+        <Badge/>
         <Content/>
         <Download/>
         <Works/>
@@ -23,4 +25,5 @@ const Home = () => {
   );
 };
 
-export default Home;
+
+export default Home
