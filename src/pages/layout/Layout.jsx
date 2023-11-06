@@ -6,9 +6,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Navbar />
-      <div className="md:container ">
+      
       {children}
-      </div>
+    
 
       <FooterPage />
     </>
