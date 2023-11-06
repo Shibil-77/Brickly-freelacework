@@ -1,0 +1,49 @@
+.card-image {
+    width: 80px;
+    height: 80px;
+    margin-right: auto;
+    margin-bottom: 1.25rem;
+    margin-left: auto;
+    border-radius: 50%;
+}
+
+
+.newp{
+
+    @apply
+    text-sm text-text-color text-center
+
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+
+
+  @keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 12));
+    }    
+}
+.slider {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.slider .slide-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+    width: calc(250px * 22);
+}
+
+.slider .slide {
+    height: 100px;
+    width: 300px;
+}
