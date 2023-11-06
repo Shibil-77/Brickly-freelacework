@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const Button = ({ text ,link}) => {
   return (
     <Link to={link}>
-    <div className="flex">
-        <button className="bg-[#00b7aa] p-3 pl-4 rounded-md text-[#f6f5f8]">
+      <div className="flex">
+        <button className="bg-[#00b7aa]  hover:opacity-50  p-3 px-6 rounded-md text-[#f6f5f8]">
           <strong>{text}</strong>
         </button>
-    </div>
+      </div>
     </Link>
   );
 };

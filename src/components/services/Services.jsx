@@ -5,7 +5,7 @@ import { FaArrowRightLong } from 'react-icons/fa6';
 const Services = () => {
   return (
     <>
-        <div className='grid lg:p-[2rem] mx-5 md:mx-16 grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-7'>
+        <div className='grid  mx-5 md:mx-16 grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-7'>
             <div className="section-1 space-y-5">
                 <div class="h-[200px] md:h-[300px] w-full relative rounded-lg">
                     <div class="absolute inset-0 bg-common rounded-lg"></div>

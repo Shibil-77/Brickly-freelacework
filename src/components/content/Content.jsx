@@ -10,9 +10,9 @@ import "./content.css";
 
 const Content = () => {
   return (
-    <div className="mt-5 flex items-center justify-center">
+    <div className="mt-5 font-roboto flex items-center justify-center">
       <div>
-        <div className="md:flex">
+        <div className="md:flex gap-10 bg-white  rounded-t-lg px-5 py-5">
           <div>
             <img
               className="w-full h-96 rounded-lg object-cover"
@@ -20,12 +20,12 @@ const Content = () => {
               alt=""
             />
           </div>
-          <div className=" w-full my-auto flex pb-0  p-5 justify-center">
+          <div className=" w-full my-auto flex pb-0   p-5 justify-center">
             <div className=" grid gap-4 ">
               <h1 className="ptext md:text-4xl text-3xl  max">
                 <strong>24/7 Customer Support </strong>
               </h1>
-              <p className="text-text-color  leading-7 lg:text-[18px] text-[15px] font-semibold">
+              <p className="text-text-color b leading-7 lg:text-[18px] text-[15px] font-semibold">
                   Our team of experts is available around the clock to assist
                   you with any questions or <br className="md:block hidden" />
                   issues you may have. Whether you need technical support or
@@ -38,7 +38,7 @@ const Content = () => {
           </div>
         </div>
 
-        <div className="md:flex  mt-10">
+        <div className="md:flex bg-primary   mt-10 px-5 py-5">
           <div className="md:hidden ">
             <img
               className=" w-full h-96 rounded-lg object-cover"
@@ -71,7 +71,7 @@ const Content = () => {
           </div>
         </div>
 
-        <div className="md:flex mt-10">
+        <div className="md:flex gap-10 bg-white rounded-t-lg px-5 py-5 mt-10 ">
           <div >
             <img
               className="w-full h-96 rounded-lg object-cover"
