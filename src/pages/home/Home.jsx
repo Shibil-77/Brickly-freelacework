@@ -1,18 +1,10 @@
-import React from 'react';
-import Members from '../../components/Members/Members';
-import Download from '../../components/Download/Download';
-import Services from '../../components/services/Services';
-import Content from '../../components/content/Content';
+
+import React from 'react'
 
 const Home = () => {
   return (
-    <>
-      <Members/>
-      <Content/>
-      <Services/>
-      {/* <Download/> */}
-    </>
+    <div>Home</div>
   )
 }
 
-export default Home
+export default Home;
