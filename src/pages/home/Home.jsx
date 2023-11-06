@@ -13,7 +13,7 @@ const Home = () => {
     <Layout>
       <Hero/>
       <div className="md:container">
-        <Badge/>
+        {/* <Badge/> */}
         <Content/>
         <Works/>
         <Download/>

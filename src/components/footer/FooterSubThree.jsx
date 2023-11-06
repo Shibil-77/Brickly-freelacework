@@ -14,13 +14,13 @@ function FooterSubThree() {
             type="email"
             placeholder="Your Email"
           />
-          <button className=" mx-4 rounded-xl absolute lg:-right-2 -right-2 top-1  hover:bg-secondary bg-secondary  text-base font-medium leading-none text-white p-2 uppercase focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
+          <button className=" mx-4  rounded-xl absolute lg:-right-2 -right- top-1 bottom-1  hover:bg-secondary bg-secondary  text-base font-medium leading-none text-white p-2 uppercase focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">
             <svg
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
               fill="#ffffff"
-              width='40'
-              height='40'
+              width='35'
+              height='35'
             >
               <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
               <g
