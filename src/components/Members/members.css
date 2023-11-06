@@ -1,0 +1,38 @@
+/* Add your styles for the carousel, e.g., width, height, and card styles */
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.5s;
+  }
+  
+  .testimonial-card {
+    /* Your testimonial card styles */
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .testimonial-card.active {
+    opacity: 1;
+  }
+  
+  .prev-btn,
+  .next-btn {
+    /* Styles for previous and next buttons */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .prev-btn {
+    left: 0;
+  }
+  
+  .next-btn {
+    right: 0;
+  }
+  
