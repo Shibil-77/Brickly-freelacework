@@ -1,21 +1,19 @@
-
-import React from 'react'
-import Layout from '../layout/Layout';
-import Download from '../../components/Download/Download';
-import Content from '../../components/content/Content';
-import Works from '../../components/works/Works';
-import Review from '../../components/review/Review';
-
+import React from "react";
+import Layout from "../layout/Layout";
+import Download from '../../components/Download/Download'
+import '../../App.css'
+import Works from "../../components/works/Works";
 
 const Home = () => {
   return (
     <Layout>
-      <Content/>
-      <Works/>
+  
       <Download/>
-      <Review/>
+      <Works/>
+      <div className="bg " >Home</div>
+
     </Layout>
-  )
-}
+  );
+};
 
 export default Home
