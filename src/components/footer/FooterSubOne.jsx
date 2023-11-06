@@ -1,16 +1,16 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 
-import WhiteLogo from  "../../assets/logo.jpeg"
+import WhiteLogo from  "../../assets/brickly-01.png"
 
 function FooterSubOne() {
   return(
     <>   
 <div className=''>
 <img src={WhiteLogo} className="mr-3 ml-2 h-6 sm:h-9 " alt="logo" />
-  <p className="max-w-xs mt-4 text-sm text-text-color ml-6 ">
-  Social Media
+  <p className="max-w-xs mt-4  ml-2 font-medium text-text-color ">
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat et sem at Etiam in lobortis dui. Praesent .
   </p>
-  <div className="flex mt-4 space-x-6 text-gray-600 ml-6">
+  <div className="flex mt-4 space-x-6 text-gray-600 ml-2">
     <a className="hover:opacity-75" href="#" target="_blank" rel="noreferrer">
       <span className="sr-only"> Facebook </span>
       <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

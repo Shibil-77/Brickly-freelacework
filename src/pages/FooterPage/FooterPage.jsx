@@ -7,7 +7,7 @@ import FooterSubThree from "../../components/footer/FooterSubThree";
 function FooterPage() {
   return (
     <footer className="bg-primary from-gray-100 via-[#bce1ff] to-gray-100 flex items-center justify-center border ">
-      <div className="w-full container">
+      <div className="w-full lg:container">
         <div className="lg:hidden block pt-11 ">
           <FooterSubOne />
         </div>

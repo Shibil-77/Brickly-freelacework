@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 // eslint-disable-next-line no-unused-vars
 import { Link } from "react-router-dom";
-import Logo from "../../assets/logo.jpeg";
+import Logo from "../../assets/brickly-01.png";
 import Button from "../common/Button";
 
 function Navbar() {
