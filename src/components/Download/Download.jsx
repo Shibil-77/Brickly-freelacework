@@ -15,8 +15,8 @@ const Download = () => {
             manage your online money.</strong>
           </p>
           <div className="flex gap-2 ">
-          <button className="bg-[#00b7aa]  hover:opacity-50 p-2 py-3 px-4 rounded-md text-[#f6f5f8] flex"><img className="w-8 h-7 text" src={playStoreIcon} alt="" /><strong >Play Store</strong></button>
-          <button className="bg-[#333e48] hover:opacity-50  p-2 py-3 px-4 rounded-md text-[#f6f5f8] flex"><img className="w-7 h-6  text" src={AppStoreIcon} alt="" /><strong className="pl-1">App Store</strong></button>
+            <a href="https://play.google.com/store/apps/details?id=com.vehicify.vehicifydriver"><button  className="bg-gradient-to-b from-[#f88306] via-[#ee7439] to-[#ec6d3a]  hover:opacity-50  p-2 py-3 px-4 rounded-md text-[#f6f5f8] flex"><img className="w-8 h-7 text" src={playStoreIcon} alt="" /><strong >Play Store</strong></button></a>
+          {/* <button className="bg-[#333e48] hover:opacity-50  p-2 py-3 px-4 rounded-md text-[#f6f5f8] flex"><img className="w-7 h-6  text" src={AppStoreIcon} alt="" /><strong className="pl-1">App Store</strong></button> */}
           </div>
         </div>
       </div>

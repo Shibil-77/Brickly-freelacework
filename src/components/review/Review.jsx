@@ -86,8 +86,11 @@ const Review = () => {
       <div className="carousel-testimonials ">
         <section className="">
           <div className="mx-auto max-w-screen-xl md:px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-            <div className="text-text-color text-3xl  flex items-center justify-center">
-              <strong>What do users think about Brickly </strong>
+          <div className="text-text-color text-1xl  flex items-center justify-center">
+              <strong>Team Member</strong>
+            </div>
+            <div className="text-white text-3xl mt-2 flex items-center justify-center">
+              <strong>Our Proficient Team </strong>
             </div>
             <div className="slider example flex items-center justify-center">
               <div className="slide-track  flex justify-center items-center example mt-8 lg:ml-10 lg:flex  gap-20  overflow-auto">

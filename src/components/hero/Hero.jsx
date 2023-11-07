@@ -21,13 +21,15 @@ const Hero = () => {
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
           <div className="lg:mt-4">
-           
-             <button className=" px-5 md:px-6  hover:opacity-50 mx-auto lg:mx-0 gap-3 py-3 md:py-4 flex text-lg md:text-xl text-primary rounded-lg font-medium bg-gradient-to-b from-[#f88306] via-[#ee7439] to-[#ec6d3a] cursor-pointer">
+           <a href="https://play.google.com/store/apps/details?id=com.vehicify.vehicifydriver">
+           <button className=" px-5 md:px-6  hover:opacity-50 mx-auto lg:mx-0 gap-3 py-3 md:py-4 flex text-lg md:text-xl text-primary rounded-lg font-medium bg-gradient-to-b from-[#f88306] via-[#ee7439] to-[#ec6d3a] cursor-pointer">
                 Download
                 <span className="text-primary text-sm md:text-base self-center">
                     <FaArrowRightLong />
                 </span>
             </button> 
+           </a>
+             
 
           </div>
           <div className="flex mt-4 flex-col lg:flex-row lg:items-start lg:flex-nowrap lg:gap-x-4 lg:mt-7">

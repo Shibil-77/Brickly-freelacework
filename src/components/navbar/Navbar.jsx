@@ -24,7 +24,11 @@ function Navbar() {
             <img src="" alt="" className="ml-6" />
           </div>
           <div className="lg:block hidden self-center">
-            <Button text="Dowload" link="/" />
+            <a href="https://play.google.com/store/apps/details?id=com.vehicify.vehicifydriver">
+
+            <Button text="Dowload"  />
+            </a>
+            
           </div>
 
           <button
