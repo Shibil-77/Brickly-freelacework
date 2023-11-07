@@ -3,7 +3,7 @@ import "../../App.css";
 
 const Works = () => {
   return (
-    <div className="">
+    <div >
       <div className=" mx-auto mt-16 mb-10">
         <h1 className="text-white lg:text-[40px] text-[30px] pt-10 text-center font-semibold">
           <span className="text-text-color text-5xl font-bold">How it Works?</span>

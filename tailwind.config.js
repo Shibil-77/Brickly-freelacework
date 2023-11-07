@@ -12,7 +12,7 @@ module.exports = {
       container: {
         center: true,
         padding: '3rem', // You can adjust the padding as needed
-      },
+      }
     },
   },
   plugins: [],

@@ -5,7 +5,7 @@ import "../../App.css";
 const Badge = () => {
   return (
     <>
-        <div className="badge flex  space-x-10 px-10 md:px-0  overflow-x-auto example">
+        <div className="badge flex  space-x-10 px-10 md:px-0 md:mt-0 mt-5 overflow-x-auto example">
         <div className="badge-1 flex w-full bg-white gap-5 items-center p-2   rounded-xl">
                 <div id="svg-container" className='w-20 h-20 bg-[#f9f7ff]  flex justify-center items-center rounded-3xl hover:bg-secondary '>
                     <svg width='60' height="60" viewBox="0 0 24 24" w fill="none" xmlns="http://www.w3.org/2000/svg">

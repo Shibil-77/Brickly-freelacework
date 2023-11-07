@@ -21,7 +21,6 @@ const Home = () => {
         <Services/>
         <Review/>
       </div>
-    
     </Layout>
   );
 };
