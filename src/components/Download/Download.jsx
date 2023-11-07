@@ -6,7 +6,7 @@ import "./download.css"
 
 const Download = () => {
   return (
-    <div className="md:flex w-full mt-5 bg-white  rounded-2xl mt-5  ">
+    <div className="md:flex w-full  bg-white  rounded-2xl mt-5  ">
       <div className="md:w-1/2 w-full my-auto flex pb-0  p-5 justify-center">
         <div className=" grid gap-4 ">
           <h1 className="md:text-4xl text-3xl  max"><strong>Download our mobile <br/> application.</strong></h1>
