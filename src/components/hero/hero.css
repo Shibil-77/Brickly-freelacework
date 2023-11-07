@@ -1,0 +1,11 @@
+@media screen and (max-width: 1496px) and (min-width: 1024px){
+    .hero-head {
+        line-height: 56px;
+    }
+}
+
+@media screen and (max-width: 1496px) and (min-width: 1024px){
+    .hero-p {
+        line-height: 35px;
+    }
+}
