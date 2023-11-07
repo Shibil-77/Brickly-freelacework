@@ -17,34 +17,34 @@ const Review = () => {
   const [countThree, setCountThree] = useState(2);
   const [arr, setArr] = useState([
     {
-      userImg: imgOne,
-      name: "Rodel Golez 1",
-      position: "Businesswoman",
-    },
-    {
-      userImg: imgTwo,
-      name: "Rodel Golez 2",
-      position: "Businesswoman",
-    },
-    {
-      userImg: img3,
-      name: "Rodel Golez 3",
-      position: "Businesswoman",
-    },
-    {
-      userImg: img4,
-      name: "Rodel Golez 4",
-      position: "Businesswoman",
+      userImg:  imgTwo,
+      name: "Mohammed Shaheed PM",
+      position: "Founder & CEO",
     },
     {
       userImg: img5,
-      name: "Rodel Golez 5",
-      position: "Businesswoman",
+      name: "Saleel Abdul kader",
+      position: "COO ",
     },
     {
       userImg: img6,
-      name: "Rodel Golez 6",
-      position: "Businesswoman",
+      name: "Sudheesh PM",
+      position: "CTO",
+    },
+    {
+      userImg: imgOne,
+      name: "Raees Althaf",
+      position: "Product Manager",
+    },
+    {
+      userImg:img4 ,
+      name: "Muhammed Munawar",
+      position: "Jr Flutter Developer",
+    },
+    {
+      userImg: img3,
+      name: "Aboobacker Fahise UP",
+      position: "Jr Flutter Developer",
     },
   ]);
 
@@ -90,10 +90,10 @@ const Review = () => {
               <strong>What do users think about Brickly </strong>
             </div>
             <div className="slider example flex items-center justify-center">
-              <div className="slide-track example mt-8 lg:ml-10 lg:flex  gap-20 ">
+              <div className="slide-track  example mt-8 lg:ml-10 lg:flex  gap-20">
 
                 <div className="slide transform ease-in-out transition-all duration-300">
-                  <div className="flex  flex-col items-center w-[20rem] py-10">
+                  <div className="flex flex-col items-center w-[20rem] py-10">
                     <img
                       className="w-24 h-24 mb-3 rounded-full shadow-lg bg-cover"
                       src={arr[count].userImg}
@@ -110,7 +110,6 @@ const Review = () => {
                     </p>
                   </div>
                 </div>
-
 
                 <div className="slide transform ease-in-out transition-all duration-300">
                   <div className="flex  flex-col items-center w-[20rem] py-10">
@@ -130,8 +129,6 @@ const Review = () => {
                     </p>
                   </div>
                 </div>
-
-
 
                 <div className="slide transform ease-in-out transition-all duration-300">
                   <div className="flex  flex-col items-center w-[20rem] py-10">

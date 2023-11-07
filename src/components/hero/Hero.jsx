@@ -7,7 +7,7 @@ import heroImg from "../../assets/Construction-Illustration-removebg.png";
 const Hero = () => {
   return (
     <div className="relative  ">
-      <section className="hero-section bg-secondary md:pb-0 pb-5  flex flex-col px-16 pt-4  lg:flex-row">
+      <section className="hero-section bg-secondary md:pb-0 pb-5  flex flex-col px-10 md:px-16 pt-4  lg:flex-row">
         <div className="mt-10 lg:w-1/2">
           {/* <p className='text-text-color hidden md:block font-bold mt-4 text-center md:text-xl lg:text-base xl:text-xl lg:text-left'>
                    Digital Product
@@ -19,14 +19,14 @@ const Hero = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
-          <div className="lg:mt-4">
+          <div className="mt-4 lg:mt-4">
             {/* <button className="px-5 md:px-6 mx-auto lg:mx-0 gap-3 py-3 md:py-4 flex text-lg md:text-xl text-primary rounded-lg font-medium bg-gradient-to-b from-[#117264] via-[#388475] to-[#1f8586]">
               Download{" "}
               <span className="text-primary text-sm md:text-base self-center">
                 <FaArrowRightLong />
               </span>
             </button> */}
-            <button className="hero-btn px-5 md:px-6 mx-auto lg:mx-0 gap-3 py-3 md:py-4 flex text-lg md:text-xl text-primary rounded-lg font-medium bg-gradient-to-b from-[#f88306] via-[#ee7439] to-[#ec6d3a] cursor-pointer">
+            <button className="hero-btn  px-5 md:px-6 mx-auto lg:mx-0 gap-3 py-3 md:py-4 flex text-lg md:text-xl text-primary rounded-lg font-medium bg-gradient-to-b from-[#f88306] via-[#ee7439] to-[#ec6d3a] cursor-pointer">
                 Download
                 <span className="text-primary text-sm md:text-base self-center">
                     <FaArrowRightLong />
