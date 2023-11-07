@@ -19,13 +19,20 @@ const Hero = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua
           </p>
-          <div className="lg:mt-4 ">
-            <button className="px-5 md:px-6 mx-auto lg:mx-0 gap-3 py-3 md:py-4 flex text-lg md:text-xl text-primary rounded-lg font-medium bg-text-color">
+          <div className="lg:mt-4">
+            {/* <button className="px-5 md:px-6 mx-auto lg:mx-0 gap-3 py-3 md:py-4 flex text-lg md:text-xl text-primary rounded-lg font-medium bg-gradient-to-b from-[#117264] via-[#388475] to-[#1f8586]">
               Download{" "}
               <span className="text-primary text-sm md:text-base self-center">
                 <FaArrowRightLong />
               </span>
+            </button> */}
+            <button className="hero-btn px-5 md:px-6 mx-auto lg:mx-0 gap-3 py-3 md:py-4 flex text-lg md:text-xl text-primary rounded-lg font-medium bg-gradient-to-b from-[#f88306] via-[#ee7439] to-[#ec6d3a] cursor-pointer">
+                Download
+                <span className="text-primary text-sm md:text-base self-center">
+                    <FaArrowRightLong />
+                </span>
             </button>
+
           </div>
           <div className="flex mt-4 flex-col lg:flex-row lg:items-start lg:flex-nowrap lg:gap-x-4 lg:mt-7">
             <ul className="flex flex-wrap gap-x-2.5 gap-y-2.5 mt-3 lg:text-sm xl:text-base">

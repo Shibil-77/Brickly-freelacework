@@ -9,3 +9,7 @@
         line-height: 35px;
     }
 }
+
+.hero-btn:hover {
+    margin-left: 10px;
+}
