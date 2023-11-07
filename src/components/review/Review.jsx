@@ -9,6 +9,7 @@ import img3 from '../../assets/img-3.jpeg'
 import img4 from '../../assets/img-4.jpeg'
 import img5 from '../../assets/img-5.jpeg'
 import img6 from '../../assets/img-6.jpeg'
+import img from '../../assets/img.jpeg'
 
 
 const Review = () => {
@@ -30,6 +31,11 @@ const Review = () => {
       userImg: img6,
       name: "Sudheesh PM",
       position: "CTO",
+    },
+    {
+      userImg: img,
+      name: "Mohammed Yousaf Yaseen",
+      position: "CEO Techgebra Software LLP",
     },
     {
       userImg: imgOne,
@@ -103,11 +109,11 @@ const Review = () => {
                       alt="Bonnie image"
                     />
 
-                    <p className="newp w-full hover:text-primary text-center text-primary">
-                     {arr[count].position}
-                    </p>
                     <p className="newp w-full testimonial-author hover:text-secondary text-center">
                       <strong>{arr[count].name}</strong>
+                    </p>
+                    <p className="newp w-full hover:text-primary text-center text-primary">
+                      {arr[count].position}
                     </p>
                   </div>
                 </div>
@@ -120,11 +126,11 @@ const Review = () => {
                       alt="Bonnie image"
                     />
 
-                    <p className="newp w-full text-white text-center">
-                    {arr[countTwo].position}
-                    </p>
                     <p className="newp w-full testimonial-author  text-center">
                       <strong>{arr[countTwo].name}</strong>
+                    </p>
+                    <p className="newp w-full text-white text-center">
+                      {arr[countTwo].position}
                     </p>
                   </div>
                 </div>
@@ -137,11 +143,11 @@ const Review = () => {
                       alt="Bonnie image"
                     />
 
-                    <p className="newp w-full  text-center text-white">
-                    {arr[countThree].position}
-                    </p>
-                    <p className="newp w-full testimonial-author text-text-color text-center">
+                    <p className="newp w-full testimonial-author text-black text-center">
                       <strong>{arr[countThree].name}</strong>
+                    </p>
+                    <p className="newp w-full  text-center text-white">
+                      {arr[countThree].position}
                     </p>
                   </div>
                 </div>
