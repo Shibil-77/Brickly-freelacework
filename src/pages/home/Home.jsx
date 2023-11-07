@@ -7,18 +7,19 @@ import Content from "../../components/content/Content";
 import Hero from "../../components/hero/Hero";
 import Badge from "../../components/badge/Badge";
 import "../../App.css";
+import Review from "../../components/review/Review";
 
 const Home = () => {
   return (
     <Layout>
       <Hero/>
       <div className="md:container">
-        {/* <Badge/> */}
+        <Badge/>
         <Content/>
         <Works/>
         <Download/>
         <Services/>
-        <Works/>
+        <Review/>
       </div>
     
     </Layout>
