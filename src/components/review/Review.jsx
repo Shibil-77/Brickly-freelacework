@@ -85,14 +85,14 @@ const Review = () => {
     <div className="testimonials container bg rounded-3xl my-5">
       <div className="carousel-testimonials ">
         <section className="">
-          <div className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
+          <div className="mx-auto max-w-screen-xl md:px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
             <div className="text-text-color text-3xl  flex items-center justify-center">
               <strong>What do users think about Brickly </strong>
             </div>
             <div className="slider example flex items-center justify-center">
-              <div className="slide-track example mt-8 lg:ml-10 lg:flex  gap-20 ">
+              <div className="slide-track  flex justify-center items-center example mt-8 lg:ml-10 lg:flex  gap-20  overflow-auto">
 
-                <div className="slide transform ease-in-out transition-all duration-300">
+                <div className="slide  transform ease-in-out transition-all duration-300">
                   <div className="flex  flex-col items-center w-[20rem] py-10">
                     <img
                       className="w-24 h-24 mb-3 rounded-full shadow-lg bg-cover"
@@ -101,9 +101,7 @@ const Review = () => {
                     />
 
                     <p className="newp w-full hover:text-primary text-center text-primary">
-                      I've been searching for a tool like Pavo for so long. I
-                      love the reports it generates and the amazing high
-                      accuracy
+                     {arr[count].position}
                     </p>
                     <p className="newp w-full testimonial-author hover:text-secondary text-center">
                       <strong>{arr[count].name}</strong>
@@ -120,12 +118,10 @@ const Review = () => {
                       alt="Bonnie image"
                     />
 
-                    <p className="newp w-full hover:text-secondary text-center">
-                      I've been searching for a tool like Pavo for so long. I
-                      love the reports it generates and the amazing high
-                      accuracy
+                    <p className="newp w-full text-white text-center">
+                    {arr[countTwo].position}
                     </p>
-                    <p className="newp w-full testimonial-author hover:text-secondary text-center">
+                    <p className="newp w-full testimonial-author  text-center">
                       <strong>{arr[countTwo].name}</strong>
                     </p>
                   </div>
@@ -141,12 +137,10 @@ const Review = () => {
                       alt="Bonnie image"
                     />
 
-                    <p className="newp w-full hover:text-secondary text-center">
-                      I've been searching for a tool like Pavo for so long. I
-                      love the reports it generates and the amazing high
-                      accuracy
+                    <p className="newp w-full  text-center text-white">
+                    {arr[countThree].position}
                     </p>
-                    <p className="newp w-full testimonial-author hover:text-secondary text-center">
+                    <p className="newp w-full testimonial-author text-text-color text-center">
                       <strong>{arr[countThree].name}</strong>
                     </p>
                   </div>

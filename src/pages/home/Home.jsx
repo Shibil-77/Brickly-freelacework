@@ -13,7 +13,7 @@ const Home = () => {
   return (
     <Layout>
       <Hero/>
-      <div className="md:container">
+      <div className="md:container mx-2 md:mx-0">
         <Badge/>
         <Content/>
         <Works/>
