@@ -5,3 +5,7 @@
 .bg-common {
     background: linear-gradient(to top, #000000,transparent);
 }
+
+.hero-section {
+    font-family: 'Nunito Sans', sans-serif;
+}

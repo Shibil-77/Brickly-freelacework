@@ -13,23 +13,17 @@ function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 bg-opacity-95 backdrop-blur-md z-50 p-0  ">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="sticky hero-section top-0 bg-opacity-95 backdrop-blur-md z-50 p-3 ">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto ">
         <a href="/" className="flex items-center">
-          <img src={Logo} className="h-10 mr-3" alt="Logo" />
+          <img src={Logo} className="h-14 mr-3" alt="Logo" />
         </a>
-        <div className="flex md:order-2 mt-3">
-          {/* <button
-            type="button"
-            className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
-          >
-            Get started
-          </button> */}
+        <div className="flex md:order-2 ">
           <div className="flex ">
             <img src="" alt="" className="mb-2" />
             <img src="" alt="" className="ml-6" />
           </div>
-          <div className="lg:block hidden">
+          <div className="lg:block hidden self-center">
             <Button text="Dowload" link="/" />
           </div>
 
@@ -64,7 +58,7 @@ function Navbar() {
           }`}
           id="navbar-sticky"
         >
-          <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium bg-opacity-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+          <ul className="flex flex-col p-4 md:p-0 mt-4 font-semibold bg-opacity-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
             <li>
               <a
                 href="#"
@@ -87,7 +81,7 @@ function Navbar() {
                 href="#"
                 className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0 "
               >
-                SHOP
+                PRICING
               </a>
             </li>
             <li>
