@@ -1,4 +1,3 @@
-
 import React from "react";
 import Layout from "../layout/Layout";
 import Download from "../../components/Download/Download";
@@ -12,14 +11,14 @@ import "../../App.css";
 const Home = () => {
   return (
     <Layout>
-
       <Hero/>
       <div className="md:container">
-        <Badge/>
+        {/* <Badge/> */}
         <Content/>
         <Works/>
         <Download/>
         <Services/>
+        <Works/>
       </div>
     
     </Layout>

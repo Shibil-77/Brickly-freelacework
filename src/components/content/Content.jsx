@@ -4,8 +4,6 @@ import contentImage2 from "../../assets/Content-image-2.jpeg";
 import contentImage3 from "../../assets/Content-image-3.jpeg";
 
 
-
-
 import "./content.css";
 
 const Content = () => {

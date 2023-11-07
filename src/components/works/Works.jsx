@@ -3,22 +3,22 @@ import "../../App.css";
 
 const Works = () => {
   return (
-    <div>
-      <div className=" mx-auto mt-16">
-        <h1 className="text-text-color lg:text-[40px] text-[30px] mt-5 text-center font-semibold">
-          <span className="text-text-color">How it Works?</span>
+    <div className="">
+      <div className=" mx-auto mt-16 mb-10">
+        <h1 className="text-white lg:text-[40px] text-[30px] pt-10 text-center font-semibold">
+          <span className="text-text-color text-5xl font-bold">How it Works?</span>
         </h1>
-        <p className="text-text-color lg:text-[18px] text-[15px] mt-5 mb-5 text-center font-semibold">
+        <p className="text-[#9ea1ad] lg:text-[18px] text-[15px] mt-5 mb-5 text-center font-medium leading-7">
           There are many variations of passages of Lorem <br /> Ipsum available
           but the majority have suffered alteration in some form.
         </p>
         <div className=" mx-auto flex justify-center md:my-0">
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-5 ">
-            <div className="w-full max-w-xs  px-10 pt-2 pb-2 ">
-              <div className="flex flex-col items-center pt-10">
+            <div className="w-full max-w-md  px-10 pt-2 pb-2 ">
+              <div className="flex flex-col items-center pt-10 ">
                 <div
                   id="svg-container"
-                  className="w-20 h-20 bg-primary  flex justify-center items-center rounded-3xl hover:bg-secondary my-5"
+                  className="w-24 h-24 bg-[#f9f7ff] flex justify-center items-center rounded-3xl hover:bg-secondary my-5"
                 >
                   {/* <img className="w-10 h-10  " src={icon} alt="🙏 img" /> */}
                   <svg
@@ -46,21 +46,20 @@ const Works = () => {
                 </div>
 
                 <h5 className="text-xl font-medium text-center">
-                  <span className="text-text-color text-[28px]"> DIGITAL</span>
+                  <span className="text-text-color font-semibold text-[28px]">Download</span>
                 </h5>
                 <br />
-                <span className="text-sm text-text-color text-center">
-                  Unlock the power of technology with our enterprise solutions
-                  and app development.
+                <span className="text-[#9ea1ad] text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus non ipsum.
                 </span>
               </div>
             </div>
 
-            <div className="w-full max-w-xs  px-10 pt-2 pb-2 ">
+            <div className="w-full max-w-md  px-10 pt-2 pb-2 ">
               <div className="flex flex-col items-center pt-10">
                 <div
                   id="svg-container-1"
-                  className="w-20 h-20 bg-primary  flex justify-center items-center rounded-3xl hover:bg-secondary my-5"
+                  className="w-24 h-24 bg-[#f9f7ff]  flex justify-center items-center rounded-3xl hover:bg-secondary my-5"
                 >
                   {/* <img className="w-10 h-10  " src={icon} alt="🙏 img" /> */}
                   <svg
@@ -90,24 +89,22 @@ const Works = () => {
                   </svg>
                 </div>
                 <h5 className="text-xl font-medium text-[28px] text-center">
-                  <span className="text-center text-text-color text-[28px]">
-                    {" "}
-                    DATA &
+                  <span className="text-center text-text-color font-semibold text-[28px]">
+                    Open an Account
                   </span>
                 </h5>
                 <br />
-                <span className="text-sm text-text-color text-center">
-                  Turn data into insights with our Data Engineering and Advanced
-                  Analytics.
+                <span className="text-[#9ea1ad] text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus non ipsum.
                 </span>
               </div>
             </div>
 
-            <div className="w-full max-w-xs  px-10 pt-2 pb-2 ">
+            <div className="w-full max-w-md  px-10 pt-2 pb-2 ">
               <div className="flex flex-col items-center pb-5 pt-10">
                 <div
                   id="svg-container-1"
-                  className="w-20 h-20 bg-primary  flex justify-center items-center rounded-3xl hover:bg-secondary my-5"
+                  className="w-24 h-24 bg-[#f9f7ff]  flex justify-center items-center rounded-3xl hover:bg-secondary my-5"
                 >
                   {/* <img className="w-10 h-10  " src={icon} alt="🙏 img" /> */}
                   <svg
@@ -125,20 +122,19 @@ const Works = () => {
                       stroke-linejoin="round"
                     ></g>
                     <g id="SVGRepo_iconCarrier">
-                      {" "}
+                     
                       <path d="M188.51855,70.68652a21.99854,21.99854,0,0,0-39.66113,3.30518L131.3418,43.65332a21.99426,21.99426,0,0,0-39.68018,3.36523A21.97221,21.97221,0,0,0,52.5957,66.68018a21.97842,21.97842,0,0,0-18.248,32.97314l5.51562,9.55371a21.99842,21.99842,0,0,0-22.69336,32.69531l37,64.08594a75.94585,75.94585,0,0,0,137.23828-12.157,76.35611,76.35611,0,0,0,14.11035-93.69946Zm-83.22949-28.1582a14.02127,14.02127,0,0,1,19.125,5.125l24.20508,41.92432A21.97738,21.97738,0,0,0,129.145,103.84839L111.62891,73.50977a21.85719,21.85719,0,0,0-9.77-8.9209L100.168,61.65942l-.00293-.0061A14.01684,14.01684,0,0,1,105.28906,42.52832ZM59.58984,55.17285a14.00026,14.00026,0,0,1,25.64746-3.376L91.45117,62.5603A21.88524,21.88524,0,0,0,71.95459,76.88379a21.84519,21.84519,0,0,0-9.27246-8.15186L60.9873,65.79688A13.908,13.908,0,0,1,59.58984,55.17285Zm94.39844,171.70508a68.08124,68.08124,0,0,1-92.89062-24.88965l-37-64.08594a14.00056,14.00056,0,1,1,24.25-14l.00048.00049,23.99952,41.56885a3.9998,3.9998,0,1,0,6.92773-4l-38-65.81836a14.00013,14.00013,0,1,1,24.249-14l38,65.81836a3.9998,3.9998,0,0,0,6.92774-4l-30-51.96167v-.00024a14.00013,14.00013,0,1,1,24.249-14l42,72.74609a3.9998,3.9998,0,0,0,6.92774-4l-16-27.7124V118.543a13.99966,13.99966,0,0,1,15.748-20.52246q.67676.18127,1.3252.425l.021.009a13.89413,13.89413,0,0,1,7.15479,6.08838l17,29.44531A68.07776,68.07776,0,0,1,153.98828,226.87793Zm41.41406-49.75269a75.59883,75.59883,0,0,0-9.59668-47.137l-17-29.44531a21.82679,21.82679,0,0,0-9.77587-8.93286l-1.688-2.9231v-.00049a14.00013,14.00013,0,0,1,24.249-14l17,29.44532A68.425,68.425,0,0,1,195.40234,177.12524ZM168.8418,25.69043l4.1416-15.4541A3.99956,3.99956,0,1,1,180.71,12.30664l-4.1416,15.4541a3.99956,3.99956,0,1,1-7.72656-2.07031Zm25.76758,10.4834,9.17773-13.10645a3.99959,3.99959,0,1,1,6.55273,4.58789l-9.17773,13.10645a3.99959,3.99959,0,0,1-6.55273-4.58789Zm38.32324,16.03906-13.10645,9.17773a3.99959,3.99959,0,0,1-4.58789-6.55273l13.10645-9.17773a3.99959,3.99959,0,1,1,4.58789,6.55273Z"></path>{" "}
                     </g>
                   </svg>
                 </div>
                 <h5 className="text-xl font-medium text-center">
-                  <span className="text-center text-text-color text-[28px]">
-                    DIGITAL
+                  <span className="text-center text-text-color font-semibold text-[28px]">
+                    Enjoy our App
                   </span>
                 </h5>
                 <br />
-                <span className="text-sm text-text-color text-center">
-                  Elevate user experiences with UI/UX design and digital
-                  commerce solutions.
+                <span className="text-[#9ea1ad] text-center">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit lectus non ipsum.
                 </span>
               </div>
             </div>

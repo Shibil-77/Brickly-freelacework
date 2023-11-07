@@ -1,15 +1,14 @@
 .bg {
-  background-color: rgb(255, 255, 255);
+  background-color: #00b7aa;
   background-image: url(./assets/Background.png);
   /* width: 100%; */
-  height: 1000px;
 }
 
 body {
   width: 100%;
   height: 100vh;
   background-color: #f6f5f8;
-  background-image: url(./assets/Background.png);
+  font-family: 'Mulish', sans-serif;
   background-size: cover;
 }
 
@@ -18,6 +17,6 @@ body {
 }
 
 #svg-container-1:hover path {
-    stroke: #f6f5f8;
-    fill:#f6f5f8;
-  }
+  stroke: #f6f5f8;
+  fill:#f6f5f8;
+}
