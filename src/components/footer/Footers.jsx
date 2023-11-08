@@ -23,8 +23,7 @@ const Footers = () => {
                   />
                 </a>
                 <p className="mb-7 text-base text-body-color dark:text-dark-6">
-                  Sed ut perspiciatis undmnis is iste natus error sit amet
-                  voluptatem totam rem aperiam.
+                <strong>Company location :</strong> PM Arcade Melmuri, PO, Alathurpedi, Malappuram, Kerala 676517<br/>Support @brickly. Ai
                 </p>
                 <p className="flex items-center text-sm font-medium text-dark dark:text-white">
                   <span className="mr-3 text-text-color">
@@ -56,7 +55,7 @@ const Footers = () => {
                       </defs>
                     </svg>
                   </span>
-                  <span>+012 (345) 678 99</span>
+                  <span>+91 9496117171</span>
                 </p>
               </div>
             </div>
@@ -87,7 +86,7 @@ const Footers = () => {
                 </h4>
                 <div className="mb-6 flex items-center">
                   <a
-                    href="javascript:void(0)"
+                    href="https://www.facebook.com/pmrinfosLive?mibextid=ZbWKwL"
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-texttext-text-color hover:bg-text-color hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-texttext-text-color sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
@@ -126,7 +125,7 @@ const Footers = () => {
                     </svg>
                   </a>
                   <a
-                    href="javascript:void(0)"
+                    href="https://instagram.com/pmr_infos?igshid=MWFtZ3hmMGV1eDR0dA=="
                     className="mr-3 flex h-8 w-8 items-center justify-center rounded-full border border-stroke text-dark hover:border-texttext-text-color hover:bg-text-color hover:text-white dark:border-dark-3 dark:text-white dark:hover:border-texttext-text-color sm:mr-4 lg:mr-3 xl:mr-4"
                   >
                     <svg
