@@ -23,7 +23,7 @@ const Content = () => {
               <h1 className="ptext md:text-4xl text-3xl  max">
                 <strong>24/7 Customer Support </strong>
               </h1>
-              <p className="text-text-color b leading-7 lg:text-[18px] text-[15px] font-semibold">
+              <p className="text-text-color b leading-7 lg:text-[16px] text-[14px] font-normal">
                   Our team of experts is available around the clock to assist
                   you with any questions or <br className="md:block hidden" />
                   issues you may have. Whether you need technical support or
@@ -49,7 +49,7 @@ const Content = () => {
               <h1 className="ptext md:text-4xl text-3xl  max">
                 <strong>Integration with Other Tools </strong>
               </h1>
-              <p className="text-text-color leading-7 lg:text-[18px] text-[15px] font-semibold">
+              <p className="text-text-color leading-7 lg:text-[16px] text-[14px] font-normal">
                   Our team of experts is available around the clock to assist
                   you with any questions or <br className="md:block hidden" />
                   issues you may have. Whether you need technical support or
@@ -86,7 +86,7 @@ const Content = () => {
                   On-Premise Hosting
                 </strong>
               </h1>
-              <p className="text-text-color lg:text-[18px] text-[15px] leading-7 font-semibold">
+              <p className="text-text-color lg:text-[16px] leading-7 text-[14px] font-normal">
                   Our team of experts is available around the clock to assist
                   you with any questions or <br className="md:block hidden" />
                   issues you may have. Whether you need technical support or

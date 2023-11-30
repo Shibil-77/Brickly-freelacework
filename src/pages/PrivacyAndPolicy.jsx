@@ -5,10 +5,10 @@ const PrivacyAndPolicy = () => {
   return (
     <>
     <Layout>
-      <div className="PrivacyAndPolicy font-sans max-w-3xl mx-auto space-y-9 mt-14">
+      <div className="PrivacyAndPolicy font-sans p-3 md:p-0 max-w-3xl mx-auto space-y-9 mt-14">
         <div className='space-y-24 '>
           <div className='text-center'>
-            <h2 className='text-4xl font-bold'>Privacy policy</h2>
+            <h2 className='text-3xl md:text-4xl font-bold'>Privacy policy</h2>
             <p className='mt-4'>Last Updated: 29/11/2023</p>
           </div>
           <p>Thank you for choosing Vehicify! This Privacy Policy is designed to help you understand how we collect, use, and safeguard your information when you use our mobile application.</p>
