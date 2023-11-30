@@ -3,8 +3,14 @@
   background-image: url(./assets/Background.png);
   /* width: 100%; */
 }
-*{
+/* *{
   font-family: 'Mulish', sans-serif;
+} */
+
+.PrivacyAndPolicy {
+  font-family: 'Poppins', sans-serif;
+
+
 }
 
 body {
@@ -12,6 +18,7 @@ body {
   height: 100vh;
   background-color: #f6f5f8;
   font-family: 'Mulish', sans-serif;
+  
   background-size: cover;
 }
 .example::-webkit-scrollbar {

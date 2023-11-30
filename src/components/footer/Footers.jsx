@@ -4,7 +4,7 @@ import logo from "../../assets/brickly-01.png";
 const Footers = () => {
   return (
     <>
-      <footer className="relative z-10 bg-white pb-10 pt-20 mt-32 dark:bg-dark lg:pb-20 lg:pt-[120px]">
+      <footer className="relative z-10 bg-white pb-10 pt-20 mt-32 dark:bg-dark lg:pt-[100px]">
         <div className="container">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4 sm:w-2/3 lg:w-3/12">
@@ -77,7 +77,7 @@ const Footers = () => {
               <NavLink link="/#" label="About TailGrids" />
               <NavLink link="/#" label="Contact & Support" />
               <NavLink link="/#" label="Success History" />
-              <NavLink link="/#" label="Setting & Privacy" />
+              <NavLink link="/privacy-policy" label="Privacy & Policy" />
             </LinkGroup>
             <LinkGroup header="Quick Links">
               <NavLink link="/#" label="Premium Support" />

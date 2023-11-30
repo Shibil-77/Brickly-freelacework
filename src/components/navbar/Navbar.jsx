@@ -65,7 +65,7 @@ function Navbar() {
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-semibold bg-opacity-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0"
                 aria-current="page"
               >
