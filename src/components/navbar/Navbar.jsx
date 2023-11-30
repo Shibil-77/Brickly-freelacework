@@ -74,7 +74,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0 "
               >
                 ABOUT
@@ -82,7 +82,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0 "
               >
                 PRICING
@@ -90,7 +90,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 pl-3 pr-4 text-text-color rounded hover:bg-primary md:hover:bg-transparent md:hover:text-secondary md:p-0 "
               >
                 CONTACT
